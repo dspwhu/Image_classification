@@ -7,11 +7,11 @@
 [CIFAR10](https://www.cnblogs.com/Jerry-Dong/p/8109938.html)
 
 ##训练
-'''Bash
+```Bash
 python main.py
-'''
+```
 
 ##测试单张图片
-'''Bash
+```Bash
 python main.py  --test_only --pre_train ./pretrained_model/model_best.pt --data_test ./data/bird.jpg
-'''
+```
